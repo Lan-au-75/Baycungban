@@ -4,7 +4,7 @@ import { ArrowDowIcon, ArrowLefAndRight, ArrowRightLight, CalendarIcon } from '.
 function Banner() {
     return (
         <div>
-            <div className="bg-[url('./src/assets/img/banner.png')] pt-[50%] bg-no-repeat bg-center bg-cover"></div>
+            <div className="bg-[url('../../src/assets/img/banner.png')] pt-[50%] bg-no-repeat bg-center bg-cover"></div>
 
             <div className='wrapper flex flex-col gap-y-[80px] lg:gap-y-[127px] max-w-[1230px] -mt-[40%] lg:-mt-[44%] xl:-mt-[40%] '>
                 {/* Title */}

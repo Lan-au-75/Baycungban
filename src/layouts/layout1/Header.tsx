@@ -64,9 +64,9 @@ function Header({ children, logo, bg, navBarText, btn }: Props) {
                         <div className='flex items-center space-x-3.5'>
                             <Link to='/'>
                                 {navBarScroll ? (
-                                    <img src={`./src/assets/img/BaycungbanLight.svg`} alt='' />
+                                    <img src={`../../src/assets/img/BaycungbanLight.svg`} alt='' />
                                 ) : (
-                                    <img src={`./src/assets/img/${logo}`} alt='' />
+                                    <img src={`../src/assets/img/${logo}`} alt='' />
                                 )}
                             </Link>
                             <img src='./src/assets/img/vietnam-1.png' alt='' />

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Jura:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-juraFont text-black text-xs md:text-sm;
+    }
+}
+
+@layer components {
+    .wrapper {
+        @apply max-w-[768px] md:max-w-[1200px] mx-auto px-2 xl:px-0;
+    }
+
+    .btn {
+        @apply flex items-center justify-center font-semibold px-4 py-[10px] text-white gap-[10px] rounded-xl hover:opacity-90 cursor-pointer select-none leading-5;
+    }
+
+    .active {
+        @apply bg-white/10 rounded-full opacity-70 transition-opacity duration-200 hover:opacity-100;
+    }
+
+    .animationNavbar {
+        transform: translateX(-100%);
+        transition: transform linear 0.2s;
+    }
+}
+
+@layer utilities {
+}
